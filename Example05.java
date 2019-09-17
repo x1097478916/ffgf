@@ -2,13 +2,15 @@ class Animal{
 	public Animal(String name){
 		System.out.println("我是一只"+name);
 	}
+	public Animal(){
+		System.out.println("我是一只动物");
+	}
 }
 class Dog extends Animal{
 	public Dog(){
-		super("沙皮狗");
 	}
 }
-public class Example04{
+public class Example05{
 	public static void main (String[] args){
 		Dog dog=new Dog();
 	}

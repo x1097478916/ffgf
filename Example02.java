@@ -5,15 +5,13 @@ class Animal{
 	}
 }
 class Dog extends Animal{
-	public void printName(){
-			System.out.println("name="+name);
+	 void shout(){
+			System.out.println("อ๔อ๔");
 	}
 }
-public class Example01{
+public class Example02{
 	public static void main (String[] args){
 		Dog dog=new Dog();
-		dog.name="ษณฦคนท";
-		dog.printName();
 		dog.shout();
 	}
 }

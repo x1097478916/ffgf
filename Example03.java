@@ -1,18 +1,21 @@
 class Animal{
-	String name;
+	String name="动物";
 	void shout(){
 		System.out.println("动物发出叫声");
 	}
 }
 class Dog extends Animal{
+	String name="犬类";
+	 void shout(){
+			super.shout();
+	}
 	public void printName(){
-			System.out.println("name="+name);
+			System.out.println("name="+super.name);
 	}
 }
-public class Example01{
+public class Example03{
 	public static void main (String[] args){
 		Dog dog=new Dog();
-		dog.name="沙皮狗";
 		dog.printName();
 		dog.shout();
 	}
