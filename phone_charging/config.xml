@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<config>
+    <className>user.ChinaMobileUser</className>
+     <alassName>user.ChinaUnicomUser</alassName>
+</config>
