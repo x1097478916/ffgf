@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<config>
+    <className>user.ChinaMobileUserCallRecordArrayList</className>
+     <alassName>user.ChinaMobileUserCallRecordLinkedList</alassName>
+<blassName>user.ChinaMobileUserCallRecordHashSet</blassName>
+<elassName>user.ChinaMobileUserCallRecordTreeSet</elassName>
+</config>
