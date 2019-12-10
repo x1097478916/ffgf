@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <className>user.ChinaMobileUserCallRecordLinkedHashMap</className>
+     <alassName>user.ChinaMobileUserCallRecordHashMap</alassName>
+<blassName>user.ChinaMobileUserCallRecordTreeMap</blassName>
+<elassName>user.ChinaUnicomUserCallRecordLinkedHashMap</elassName>
+<flassName>user.ChinaUnicomUserCallRecordHashMap</flassName>
+<glassName>user.ChinaUnicomUserCallRecordTreeMap</glassName>
+</config>
